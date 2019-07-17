@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="APITesting.APItestingwithTestNG.AppTest"/>
+      <class name="APITesting.APItestingwithTestNG.Rest_allhedervalidation"/>
+      <class name="APITesting.APItestingwithTestNG.Post_Registation"/>
+      <class name="APITesting.APItestingwithTestNG.Googleapi_Get"/>
+      <class name="APITesting.APItestingwithTestNG.Get_assert_responsebody"/>
+      <class name="APITesting.APItestingwithTestNG.WeatherAPI_Rest_01"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
