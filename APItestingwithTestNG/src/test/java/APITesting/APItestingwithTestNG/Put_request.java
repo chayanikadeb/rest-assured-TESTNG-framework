@@ -18,12 +18,11 @@ public class Put_request {
 		//Request object
 		 RequestSpecification httpRequest=RestAssured.given();
 		 
-		//Request paylaod sending along with post request
+		//Request paylaod sending along with put request
 		 JSONObject Requestparams=new JSONObject ();
 		 Requestparams.put("id","2");
 		 Requestparams.put("first_name","Janet");
 		 Requestparams.put("last_name","Weaver");
-		 //Requestparams.put("Weaver","pppp");
 		 Requestparams.put("email","chayanikamahapatra@gmail.com");
 		 
 		 
